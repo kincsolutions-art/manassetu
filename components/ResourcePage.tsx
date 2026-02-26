@@ -45,7 +45,7 @@ const t = {
   },
   np: {
     home: "गृहपृष्ठ",
-    resources: "स्रोतहरू",
+    resources: "अभ्यासहरू",
     talkToSomeone: "कसैसँग कुरा गर्नुहोस्",
     moreHelplines: "थप helpline →",
     youMightThink: "तिम्रो मनमा यस्तो आउन सक्छ",

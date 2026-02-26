@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useLang } from "./LanguageContext";
 
 const NAV = [
-  { label: "Resources", labelNp: "स्रोतहरू", href: "/resources" },
+  { label: "Resources", labelNp: "अभ्यासहरू", href: "/resources" },
   { label: "Find Support", labelNp: "सहयोग", href: "/support" },
   { label: "About", labelNp: "बारेमा", href: "/about" },
 ];

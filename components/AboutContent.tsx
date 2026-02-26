@@ -38,7 +38,7 @@ const VALUES = [
     description:
       "Every helpline, every resource is verified. We check numbers, hours, and availability so you don't have to worry about outdated info.",
     descriptionNp:
-      "हरेक helpline, हरेक resource प्रमाणित छ। नम्बर, समय र उपलब्धता हामीले जाँच गर्छौं — पुरानो जानकारीको चिन्ता लिनु पर्दैन।",
+      "हरेक helpline, हरेक अभ्यास प्रमाणित छ। नम्बर, समय र उपलब्धता हामीले जाँच गर्छौं — पुरानो जानकारीको चिन्ता लिनु पर्दैन।",
   },
   {
     icon: (
@@ -54,7 +54,7 @@ const VALUES = [
     description:
       "Not a copy-paste from Western resources. Built with Nepal's context, culture, and languages in mind.",
     descriptionNp:
-      "पश्चिमी resource को copy-paste होइन। नेपालको सन्दर्भ, संस्कृति र भाषालाई ध्यानमा राखेर बनाइएको।",
+      "पश्चिमी अभ्यासको copy-paste होइन। नेपालको सन्दर्भ, संस्कृति र भाषालाई ध्यानमा राखेर बनाइएको।",
   },
   {
     icon: (
@@ -129,9 +129,9 @@ const t = {
       "यो कुनै company होइन। ५० जनाको team छैन। एक जना, एउटा laptop, र धेरै रातको जागा — यो विश्वासले चलाएको कि एउटा सानो tool पनि, सही समयमा सही व्यक्तिसम्म पुगे, सबै कुरा बदल्न सक्छ।",
     ctaTitle: "सहयोग गर्न चाहनुहुन्छ?",
     ctaDescription:
-      "Site share गर्नु होस्, त्रुटि report गर्नु होस्, वा resource योगदान गर्नु होस् — हरेक सहयोग मूल्यवान छ।",
+      "Site share गर्नु होस्, त्रुटि report गर्नु होस्, वा अभ्यास योगदान गर्नु होस् — हरेक सहयोग मूल्यवान छ।",
     ctaPrimary: "Mission मा सहयोग गर्नुहोस्",
-    ctaSecondary: "Resource हेर्नुहोस्",
+    ctaSecondary: "अभ्यासहरू हेर्नुहोस्",
   },
 };
 

@@ -21,7 +21,7 @@ const t = {
   np: {
     tagline: "मनको शान्तिमा एउटा सेतु। नेपालका लागि बनाइएको निःशुल्क मानसिक स्वास्थ्य साधन, सबैका लागि।",
     explore: "हेर्नुहोस्",
-    resources: "स्रोतहरू",
+    resources: "अभ्यासहरू",
     findSupport: "सहयोग",
     helplines: "Helpline",
     about: "बारेमा",
