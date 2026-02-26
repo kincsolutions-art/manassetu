@@ -1,0 +1,24 @@
+---
+description: Accessibility and calm UX rules.
+globs:
+  - "app/**"
+  - "components/**"
+---
+
+# Accessibility & Calm UX
+
+## Accessibility
+- Semantic HTML and correct heading hierarchy (one H1 per page).
+- Keyboard navigation supported.
+- Visible focus states (do not remove outlines without replacement).
+- Icon-only buttons need aria-labels.
+- Maintain readable contrast and font sizing.
+
+## Calm UX
+- Avoid intense animations, flashing, parallax.
+- Prefer simple layouts and generous spacing.
+- Mobile-first. Must work on low-end phones and poor connections.
+
+## Language
+- Architecture should allow Nepali and English content.
+- Blog posts use `lang` in frontmatter; UI supports future language switch.

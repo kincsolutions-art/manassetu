@@ -1,0 +1,18 @@
+---
+description: Core project context and non-negotiable conventions for Manas Setu.
+alwaysApply: true
+---
+
+# Manas Setu: Project Core Rules
+
+You are building **Manas Setu**.
+
+## Stack
+- Next.js **App Router** with **TypeScript**
+- Tailwind CSS
+- Server Components by default; Client Components only when needed
+
+## Code conventions
+- Prefer small, composable modules. No mega-files.
+- Keep dependencies minimal. Do not add heavy libraries without being asked.
+- TypeScript strict style: avoid `any`, prefer narrow types.

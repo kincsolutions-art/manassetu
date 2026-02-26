@@ -1,0 +1,33 @@
+---
+description: Blog rules: content format, frontmatter schema, routing, and behavior.
+globs:
+  - "app/blog/**"
+  - "content/blog/**"
+  - "lib/blog/**"
+---
+
+# Blog Rules (Manas Setu)
+
+## Content source
+- Blog posts live in `content/blog/` as `.md` or `.mdx`.
+- Slug = filename (kebab-case). Example: `exam-stress-basics.mdx` => `/blog/exam-stress-basics`.
+
+## Required frontmatter
+Every post must include:
+- `title`: string
+- `description`: string
+- `date`: "YYYY-MM-DD"
+- `author`: string
+- `tags`: string[]
+- `lang`: "en" | "ne"
+- `draft`: boolean (optional)
+
+## Behavior
+- Draft posts are **hidden in production** builds.
+- Blog list supports:
+  - filtering by tag
+  - search by title/description
+- Post pages include:
+  - table of contents (optional, if easy)
+  - “Back to blog”
+  - related posts (optional)

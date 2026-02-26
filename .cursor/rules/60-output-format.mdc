@@ -1,0 +1,12 @@
+---
+description: How the assistant should respond when implementing features in this repo.
+alwaysApply: true
+---
+
+# Output Format Rules
+
+When asked to implement a feature:
+1) Provide a concise file list of what will be created/edited.
+2) Provide code per file (only what's needed).
+3) Explain how it works in a few bullets.
+4) Avoid dumping enormous files unless explicitly requested.

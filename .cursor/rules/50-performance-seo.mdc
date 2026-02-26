@@ -1,0 +1,25 @@
+---
+description: Performance, caching, and SEO conventions for static content and blog.
+globs:
+  - "app/**"
+  - "lib/**"
+---
+
+# Performance & SEO Rules
+
+## Performance
+- Avoid unnecessary client-side JS.
+- Prefer SSG/static rendering for blog pages when possible.
+- Use caching/revalidation appropriately for content reads.
+
+## SEO
+- Use Next.js metadata APIs.
+- Blog list and post pages must set:
+  - title
+  - description
+  - open graph basics
+  - canonical (when appropriate)
+
+## Content rendering safety
+- If rendering markdown, avoid raw HTML injection unless sanitized.
+- Prefer safe markdown rendering defaults.
