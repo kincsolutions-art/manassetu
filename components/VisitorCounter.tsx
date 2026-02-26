@@ -1,25 +1,30 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+
+const POLL_INTERVAL = 15_000;
 
 export function VisitorCounter() {
   const [count, setCount] = useState<number | null>(null);
+  const initialized = useRef(false);
 
   useEffect(() => {
-    const alreadyCounted = sessionStorage.getItem("visitor_counted");
+    if (initialized.current) return;
+    initialized.current = true;
 
-    if (alreadyCounted) {
+    fetch("/api/visitors", { method: "POST" })
+      .then((r) => r.json())
+      .then((d) => setCount(d.count))
+      .catch(() => {});
+
+    const interval = setInterval(() => {
       fetch("/api/visitors")
         .then((r) => r.json())
-        .then((d) => setCount(d.count));
-    } else {
-      fetch("/api/visitors", { method: "POST" })
-        .then((r) => r.json())
-        .then((d) => {
-          setCount(d.count);
-          sessionStorage.setItem("visitor_counted", "1");
-        });
-    }
+        .then((d) => setCount(d.count))
+        .catch(() => {});
+    }, POLL_INTERVAL);
+
+    return () => clearInterval(interval);
   }, []);
 
   if (count === null) return null;
@@ -35,7 +40,7 @@ export function VisitorCounter() {
         {digits.map((d, i) => (
           <span
             key={i}
-            className={`inline-flex items-center justify-center font-bold ${
+            className={`inline-flex items-center justify-center font-bold transition-all duration-300 ${
               d === ","
                 ? "w-2 text-amber-200/60 text-sm"
                 : "w-8 h-9 rounded-lg bg-stone-700/80 text-amber-100 text-lg shadow-inner"
