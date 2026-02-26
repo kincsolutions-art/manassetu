@@ -1,30 +1,27 @@
 import { NextResponse } from "next/server";
-import fs from "fs/promises";
-import path from "path";
+import { Redis } from "@upstash/redis";
 
-const filePath = path.join(process.cwd(), "data", "visitors.json");
+const redis = new Redis({
+  url: process.env.UPSTASH_REDIS_REST_URL!,
+  token: process.env.UPSTASH_REDIS_REST_TOKEN!,
+});
 
-async function readCount(): Promise<number> {
+const KEY = "manassetu:visitors";
+
+export async function GET() {
   try {
-    const raw = await fs.readFile(filePath, "utf-8");
-    return JSON.parse(raw).count ?? 0;
+    const count = (await redis.get<number>(KEY)) ?? 0;
+    return NextResponse.json({ count });
   } catch {
-    return 0;
+    return NextResponse.json({ count: 0 });
   }
 }
 
-async function writeCount(count: number) {
-  await fs.mkdir(path.dirname(filePath), { recursive: true });
-  await fs.writeFile(filePath, JSON.stringify({ count }));
-}
-
-export async function GET() {
-  const count = await readCount();
-  return NextResponse.json({ count });
-}
-
 export async function POST() {
-  const count = (await readCount()) + 1;
-  await writeCount(count);
-  return NextResponse.json({ count });
+  try {
+    const count = await redis.incr(KEY);
+    return NextResponse.json({ count });
+  } catch {
+    return NextResponse.json({ count: 0 });
+  }
 }
