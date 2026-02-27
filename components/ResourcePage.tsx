@@ -150,8 +150,8 @@ export function ResourcePage({ resource }: { resource: Resource }) {
 
       <FloatingWidgets />
 
-      {/* Dark hero section */}
-      <div className="relative overflow-hidden bg-stone-900 text-white pb-24 md:pb-32">
+      {/* Dark hero section — fixed height */}
+      <div className="relative overflow-hidden bg-stone-900 text-white h-[480px] md:h-[520px]">
         <div className="absolute top-[-20%] left-[-10%] w-[80%] h-[80%] bg-[radial-gradient(circle_at_center,rgba(245,158,11,0.15)_0%,transparent_60%)] animate-float-slow transform-gpu pointer-events-none" />
         <div className="absolute bottom-[-20%] right-[-10%] w-[90%] h-[90%] bg-[radial-gradient(circle_at_center,rgba(244,63,94,0.12)_0%,transparent_60%)] animate-float-slow [animation-delay:2s] transform-gpu pointer-events-none" />
         <div className="absolute inset-0 bg-gradient-to-b from-stone-950/50 to-stone-900/80 pointer-events-none" />
@@ -184,8 +184,10 @@ export function ResourcePage({ resource }: { resource: Resource }) {
         </div>
 
         {/* Topic nav strip */}
-        <div className="relative z-10 max-w-3xl mx-auto px-6 pt-8 pb-2">
-          <TopicNav currentSlug={resource.slug} />
+        <div className="absolute bottom-[105px] md:bottom-[145px] left-0 right-0 z-20 max-w-3xl mx-auto px-6">
+          <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl px-3 py-2.5">
+            <TopicNav currentSlug={resource.slug} />
+          </div>
         </div>
 
         {/* Wave into content */}
