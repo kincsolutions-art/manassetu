@@ -60,25 +60,27 @@ const CATEGORIES: { key: CategoryKey; label: string; labelNp: string; icon: Reac
   },
 ];
 
-const TYPE_LABELS: Record<string, { label: string; labelNp: string; color: string }> = {
-  crisis:                  { label: "Crisis",           labelNp: "Crisis",           color: "bg-rose-100 text-rose-700 border-rose-200" },
-  emergency_services:      { label: "Emergency",        labelNp: "Emergency",        color: "bg-rose-100 text-rose-700 border-rose-200" },
-  child_protection_crisis: { label: "Child Protection", labelNp: "Child Protection", color: "bg-rose-100 text-rose-700 border-rose-200" },
-  hospital_crisis_line:    { label: "Hospital Crisis",  labelNp: "Hospital Crisis",  color: "bg-rose-100 text-rose-700 border-rose-200" },
-  counseling:              { label: "Counseling",       labelNp: "Counseling",       color: "bg-amber-100 text-amber-700 border-amber-200" },
-  counseling_services:     { label: "Counseling",       labelNp: "Counseling",       color: "bg-amber-100 text-amber-700 border-amber-200" },
-  counseling_and_referral: { label: "Counseling",       labelNp: "Counseling",       color: "bg-amber-100 text-amber-700 border-amber-200" },
-  peer_support_and_advocacy: { label: "Peer Support",  labelNp: "Peer Support",     color: "bg-amber-100 text-amber-700 border-amber-200" },
-  relationship_support:    { label: "Relationship",     labelNp: "Relationship",     color: "bg-amber-100 text-amber-700 border-amber-200" },
-  gbv_crisis_support:      { label: "Safety & GBV",    labelNp: "सुरक्षा र GBV",   color: "bg-purple-100 text-purple-700 border-purple-200" },
-  gbv_support_services:    { label: "GBV Support",     labelNp: "GBV सहयोग",       color: "bg-purple-100 text-purple-700 border-purple-200" },
-  hospital_service:        { label: "Hospital",         labelNp: "अस्पताल",         color: "bg-sky-100 text-sky-700 border-sky-200" },
-  hospital_telehealth:     { label: "Teleconsult",      labelNp: "Teleconsult",      color: "bg-sky-100 text-sky-700 border-sky-200" },
-  private_clinic:          { label: "Private Clinic",   labelNp: "Private Clinic",   color: "bg-sky-100 text-sky-700 border-sky-200" },
-  private_practice:        { label: "Private Practice", labelNp: "Private Practice", color: "bg-sky-100 text-sky-700 border-sky-200" },
-  regulator:               { label: "Regulator",        labelNp: "Regulator",        color: "bg-stone-100 text-stone-600 border-stone-200" },
-  professional_body:       { label: "Professional Body",labelNp: "Professional Body",color: "bg-stone-100 text-stone-600 border-stone-200" },
+const TYPE_LABELS: Record<string, { label: string; labelNp: string; color: string; bar: string; border: string; phone: string }> = {
+  crisis:                  { label: "Crisis",           labelNp: "Crisis",           color: "bg-rose-100 text-rose-700 border-rose-200",     bar: "from-rose-400 to-rose-500",     border: "border-rose-200/60",   phone: "text-rose-600 hover:text-rose-700" },
+  emergency_services:      { label: "Emergency",        labelNp: "Emergency",        color: "bg-rose-100 text-rose-700 border-rose-200",     bar: "from-rose-400 to-red-500",      border: "border-rose-200/60",   phone: "text-rose-600 hover:text-rose-700" },
+  child_protection_crisis: { label: "Child Protection", labelNp: "Child Protection", color: "bg-rose-100 text-rose-700 border-rose-200",     bar: "from-rose-400 to-pink-500",     border: "border-rose-200/60",   phone: "text-rose-600 hover:text-rose-700" },
+  hospital_crisis_line:    { label: "Hospital Crisis",  labelNp: "Hospital Crisis",  color: "bg-rose-100 text-rose-700 border-rose-200",     bar: "from-rose-400 to-rose-500",     border: "border-rose-200/60",   phone: "text-rose-600 hover:text-rose-700" },
+  counseling:              { label: "Counseling",       labelNp: "Counseling",       color: "bg-amber-100 text-amber-700 border-amber-200",  bar: "from-amber-400 to-orange-400",  border: "border-amber-200/60",  phone: "text-amber-600 hover:text-amber-700" },
+  counseling_services:     { label: "Counseling",       labelNp: "Counseling",       color: "bg-amber-100 text-amber-700 border-amber-200",  bar: "from-amber-400 to-orange-400",  border: "border-amber-200/60",  phone: "text-amber-600 hover:text-amber-700" },
+  counseling_and_referral: { label: "Counseling",       labelNp: "Counseling",       color: "bg-amber-100 text-amber-700 border-amber-200",  bar: "from-orange-400 to-amber-400",  border: "border-amber-200/60",  phone: "text-amber-600 hover:text-amber-700" },
+  peer_support_and_advocacy: { label: "Peer Support",  labelNp: "Peer Support",     color: "bg-amber-100 text-amber-700 border-amber-200",  bar: "from-amber-300 to-yellow-400",  border: "border-amber-200/60",  phone: "text-amber-600 hover:text-amber-700" },
+  relationship_support:    { label: "Relationship",     labelNp: "Relationship",     color: "bg-amber-100 text-amber-700 border-amber-200",  bar: "from-orange-300 to-amber-400",  border: "border-amber-200/60",  phone: "text-amber-600 hover:text-amber-700" },
+  gbv_crisis_support:      { label: "Safety & GBV",    labelNp: "सुरक्षा र GBV",   color: "bg-purple-100 text-purple-700 border-purple-200",bar: "from-purple-400 to-violet-500", border: "border-purple-200/60", phone: "text-purple-600 hover:text-purple-700" },
+  gbv_support_services:    { label: "GBV Support",     labelNp: "GBV सहयोग",       color: "bg-purple-100 text-purple-700 border-purple-200",bar: "from-violet-400 to-purple-400", border: "border-purple-200/60", phone: "text-purple-600 hover:text-purple-700" },
+  hospital_service:        { label: "Hospital",         labelNp: "अस्पताल",         color: "bg-sky-100 text-sky-700 border-sky-200",        bar: "from-sky-400 to-cyan-400",      border: "border-sky-200/60",    phone: "text-sky-600 hover:text-sky-700" },
+  hospital_telehealth:     { label: "Teleconsult",      labelNp: "Teleconsult",      color: "bg-sky-100 text-sky-700 border-sky-200",        bar: "from-cyan-400 to-sky-400",      border: "border-sky-200/60",    phone: "text-sky-600 hover:text-sky-700" },
+  private_clinic:          { label: "Private Clinic",   labelNp: "Private Clinic",   color: "bg-sky-100 text-sky-700 border-sky-200",        bar: "from-sky-400 to-blue-400",      border: "border-sky-200/60",    phone: "text-sky-600 hover:text-sky-700" },
+  private_practice:        { label: "Private Practice", labelNp: "Private Practice", color: "bg-sky-100 text-sky-700 border-sky-200",        bar: "from-blue-400 to-sky-400",      border: "border-sky-200/60",    phone: "text-sky-600 hover:text-sky-700" },
+  regulator:               { label: "Regulator",        labelNp: "Regulator",        color: "bg-stone-100 text-stone-600 border-stone-200",  bar: "from-stone-300 to-stone-400",   border: "border-stone-200/60",  phone: "text-stone-700 hover:text-stone-800" },
+  professional_body:       { label: "Professional Body",labelNp: "Professional Body",color: "bg-stone-100 text-stone-600 border-stone-200",  bar: "from-stone-300 to-stone-400",   border: "border-stone-200/60",  phone: "text-stone-700 hover:text-stone-800" },
 };
+
+const defaultType = { label: "", labelNp: "", color: "bg-stone-100 text-stone-600 border-stone-200", bar: "from-stone-300 to-stone-400", border: "border-stone-100", phone: "text-stone-800 hover:text-amber-700" };
 
 const UI = {
   en: {
@@ -112,17 +114,14 @@ const UI = {
 };
 
 function HelplineCard({ h, isNp }: { h: Helpline; isNp: boolean }) {
-  const badge = TYPE_LABELS[h.contact_type] ?? { label: h.contact_type, labelNp: h.contact_type, color: "bg-stone-100 text-stone-600 border-stone-200" };
+  const badge = TYPE_LABELS[h.contact_type] ?? defaultType;
   const primaryPhone = h.phones.filter(p => !p.includes("Ambulance") && !p.includes("(Not"))[0];
-  const isCrisis = ["crisis", "emergency_services", "child_protection_crisis", "hospital_crisis_line"].includes(h.contact_type);
 
   const displayName = h.name.replace(/\s+[–—-]+\s+.+$/, "").trim();
 
   return (
-    <div className={`group relative bg-white rounded-3xl border overflow-hidden shadow-[0_4px_20px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.09)] transition-all duration-500 flex flex-col ${
-      isCrisis ? "border-rose-200/60" : "border-stone-100"
-    }`}>
-      {isCrisis && <div className="h-1 bg-gradient-to-r from-rose-400 to-rose-500" />}
+    <div className={`group relative bg-white rounded-3xl border overflow-hidden shadow-[0_4px_20px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.09)] transition-all duration-500 flex flex-col ${badge.border}`}>
+      <div className={`h-1 bg-gradient-to-r ${badge.bar}`} />
 
       <div className="p-6 flex flex-col gap-4 flex-1">
         {/* Badge + hours */}
@@ -168,11 +167,7 @@ function HelplineCard({ h, isNp }: { h: Helpline; isNp: boolean }) {
         {primaryPhone ? (
           <a
             href={`tel:${primaryPhone.replace(/\s+/g, "")}`}
-            className={`font-extrabold tracking-tight transition-colors duration-200 leading-none ${
-              isCrisis
-                ? "text-2xl text-rose-600 hover:text-rose-700"
-                : "text-xl text-stone-800 hover:text-amber-700"
-            }`}
+            className={`font-extrabold tracking-tight transition-colors duration-200 leading-none text-xl ${badge.phone}`}
           >
             {primaryPhone}
           </a>

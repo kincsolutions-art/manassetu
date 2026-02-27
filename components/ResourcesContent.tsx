@@ -24,6 +24,25 @@ const icons: Record<string, React.ReactNode> = {
   anger: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />,
 };
 
+const cardColors: Record<string, { bar: string; iconBg: string; iconBgHover: string; iconText: string; badge: string }> = {
+  anxiety:              { bar: "from-amber-400 to-orange-400",  iconBg: "bg-amber-50",   iconBgHover: "bg-amber-100",   iconText: "text-amber-600",   badge: "bg-amber-50 text-amber-600 border-amber-200" },
+  "exam-stress":        { bar: "from-orange-400 to-amber-400",  iconBg: "bg-orange-50",  iconBgHover: "bg-orange-100",  iconText: "text-orange-600",  badge: "bg-orange-50 text-orange-600 border-orange-200" },
+  "sleep-problems":     { bar: "from-indigo-400 to-violet-400", iconBg: "bg-indigo-50",  iconBgHover: "bg-indigo-100",  iconText: "text-indigo-600",  badge: "bg-indigo-50 text-indigo-600 border-indigo-200" },
+  "low-mood":           { bar: "from-rose-400 to-pink-400",     iconBg: "bg-rose-50",    iconBgHover: "bg-rose-100",    iconText: "text-rose-600",    badge: "bg-rose-50 text-rose-600 border-rose-200" },
+  loneliness:           { bar: "from-sky-400 to-cyan-400",      iconBg: "bg-sky-50",     iconBgHover: "bg-sky-100",     iconText: "text-sky-600",     badge: "bg-sky-50 text-sky-600 border-sky-200" },
+  bullying:             { bar: "from-emerald-400 to-teal-400",  iconBg: "bg-emerald-50", iconBgHover: "bg-emerald-100", iconText: "text-emerald-600", badge: "bg-emerald-50 text-emerald-600 border-emerald-200" },
+  "family-conflict":    { bar: "from-amber-500 to-yellow-400",  iconBg: "bg-yellow-50",  iconBgHover: "bg-yellow-100",  iconText: "text-yellow-600",  badge: "bg-yellow-50 text-yellow-600 border-yellow-200" },
+  grief:                { bar: "from-stone-400 to-stone-500",   iconBg: "bg-stone-100",  iconBgHover: "bg-stone-200",   iconText: "text-stone-500",   badge: "bg-stone-100 text-stone-500 border-stone-300" },
+  "self-harm":          { bar: "from-rose-500 to-red-500",      iconBg: "bg-rose-50",    iconBgHover: "bg-rose-100",    iconText: "text-rose-500",    badge: "bg-rose-50 text-rose-500 border-rose-200" },
+  addiction:            { bar: "from-violet-400 to-purple-400",  iconBg: "bg-violet-50",  iconBgHover: "bg-violet-100",  iconText: "text-violet-600",  badge: "bg-violet-50 text-violet-600 border-violet-200" },
+  trauma:               { bar: "from-teal-400 to-emerald-400",  iconBg: "bg-teal-50",    iconBgHover: "bg-teal-100",    iconText: "text-teal-600",    badge: "bg-teal-50 text-teal-600 border-teal-200" },
+  "relationship-issues":{ bar: "from-pink-400 to-rose-400",     iconBg: "bg-pink-50",    iconBgHover: "bg-pink-100",    iconText: "text-pink-600",    badge: "bg-pink-50 text-pink-600 border-pink-200" },
+  "body-image":         { bar: "from-fuchsia-400 to-pink-400",  iconBg: "bg-fuchsia-50", iconBgHover: "bg-fuchsia-100", iconText: "text-fuchsia-600", badge: "bg-fuchsia-50 text-fuchsia-600 border-fuchsia-200" },
+  anger:                { bar: "from-red-400 to-orange-400",    iconBg: "bg-red-50",     iconBgHover: "bg-red-100",     iconText: "text-red-600",     badge: "bg-red-50 text-red-600 border-red-200" },
+};
+
+const defaultColor = { bar: "from-amber-300 to-orange-300", iconBg: "bg-amber-50", iconBgHover: "bg-amber-100", iconText: "text-amber-600", badge: "bg-amber-50 text-amber-600 border-amber-200" };
+
 const t = {
   en: {
     badge: (n: number) => `${n} topics`,
@@ -85,39 +104,52 @@ export function ResourcesContent() {
 
       <main className="max-w-5xl mx-auto px-6 md:px-8 pb-24 md:pb-32 -mt-16 md:-mt-20 relative z-20">
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 animate-fade-in-up [animation-delay:100ms]">
-          {resources.map((r) => (
-            <Link
-              key={r.slug}
-              href={`/resources/${r.slug}`}
-              className="group bg-white rounded-3xl border border-stone-100 p-6 space-y-4 shadow-sm hover:shadow-lg hover:border-amber-100 transition-all duration-300 relative overflow-hidden"
-            >
-              <div className="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-amber-300 to-orange-300 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+          {resources.map((r) => {
+            const c = cardColors[r.slug] ?? defaultColor;
+            return (
+              <Link
+                key={r.slug}
+                href={`/resources/${r.slug}`}
+                className="group relative bg-white rounded-3xl border border-stone-100 overflow-hidden shadow-[0_4px_20px_rgb(0,0,0,0.04)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.09)] transition-all duration-500 flex flex-col"
+              >
+                <div className={`h-1 bg-gradient-to-r ${c.bar} opacity-60 group-hover:opacity-100 transition-opacity duration-300`} />
 
-              <div className="w-11 h-11 rounded-2xl bg-amber-50 group-hover:bg-amber-100 flex items-center justify-center transition-colors duration-300">
-                <svg className="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  {icons[r.slug]}
-                </svg>
-              </div>
+                <div className="p-6 flex flex-col gap-4 flex-1">
+                  <div className="flex items-start justify-between gap-3">
+                    <div className={`w-10 h-10 rounded-xl ${c.iconBg} group-hover:${c.iconBgHover} flex items-center justify-center transition-colors duration-300 shrink-0`}>
+                      <svg className={`w-5 h-5 ${c.iconText}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        {icons[r.slug]}
+                      </svg>
+                    </div>
+                    <span className={`inline-flex items-center text-[10px] font-bold tracking-wider uppercase px-2.5 py-1 rounded-full border ${c.badge}`}>
+                      {s.tools(r.tools.length)}
+                    </span>
+                  </div>
 
-              <div className="space-y-1.5">
-                <h2 className="font-bold text-stone-800 group-hover:text-stone-900 transition-colors">
-                  {(isNp && r.titleNp) || r.title}
-                </h2>
-                <p className="text-stone-500 text-sm leading-relaxed line-clamp-2">
-                  {(isNp && r.subtitleNp) || r.subtitle}
-                </p>
-              </div>
+                  <div>
+                    <h2 className="font-bold text-stone-800 text-base leading-snug group-hover:text-stone-900 transition-colors">
+                      {(isNp && r.titleNp) || r.title}
+                    </h2>
+                    <p className="text-stone-500 text-sm leading-relaxed mt-1.5 line-clamp-2">
+                      {(isNp && r.subtitleNp) || r.subtitle}
+                    </p>
+                  </div>
+                </div>
 
-              <div className="flex items-center gap-2 text-xs font-semibold text-stone-400 group-hover:text-amber-600 transition-colors">
-                <span>{s.tools(r.tools.length)}</span>
-                <span>·</span>
-                <span>{r.tools.map(tool => tool.duration).join(", ")}</span>
-                <svg className="w-3.5 h-3.5 ml-auto group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M9 5l7 7-7 7" />
-                </svg>
-              </div>
-            </Link>
-          ))}
+                <div className="border-t border-stone-100 px-6 py-4 flex items-center justify-between bg-stone-50/50">
+                  <span className="text-xs text-stone-400 font-medium">
+                    {r.tools.map(tool => tool.duration).join(", ")}
+                  </span>
+                  <span className="inline-flex items-center gap-1 text-xs font-semibold text-stone-400 group-hover:text-stone-600 transition-colors">
+                    {isNp ? "हेर्नुहोस्" : "Explore"}
+                    <svg className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M9 5l7 7-7 7" />
+                    </svg>
+                  </span>
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </main>
 

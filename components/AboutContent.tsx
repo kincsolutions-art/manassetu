@@ -23,6 +23,10 @@ const VALUES = [
       "Mental health support shouldn't have a paywall. Every tool, guide, and helpline on Manas Setu is free, forever.",
     descriptionNp:
       "मानसिक स्वास्थ्य सहयोगमा पैसाको अवरोध हुनु हुँदैन। Manas Setu का हरेक tool, guide र helpline सधैंका लागि निःशुल्क छ।",
+    bar: "from-amber-400 to-orange-400",
+    border: "border-amber-200/60",
+    iconBg: "bg-amber-50",
+    iconColor: "text-amber-600",
   },
   {
     icon: (
@@ -39,6 +43,10 @@ const VALUES = [
       "Every helpline, every resource is verified. We check numbers, hours, and availability so you don't have to worry about outdated info.",
     descriptionNp:
       "हरेक helpline, हरेक अभ्यास प्रमाणित छ। नम्बर, समय र उपलब्धता हामीले जाँच गर्छौं — पुरानो जानकारीको चिन्ता लिनु पर्दैन।",
+    bar: "from-emerald-400 to-teal-400",
+    border: "border-emerald-200/60",
+    iconBg: "bg-emerald-50",
+    iconColor: "text-emerald-600",
   },
   {
     icon: (
@@ -55,6 +63,10 @@ const VALUES = [
       "Not a copy-paste from Western resources. Built with Nepal's context, culture, and languages in mind.",
     descriptionNp:
       "पश्चिमी अभ्यासको copy-paste होइन। नेपालको सन्दर्भ, संस्कृति र भाषालाई ध्यानमा राखेर बनाइएको।",
+    bar: "from-sky-400 to-blue-400",
+    border: "border-sky-200/60",
+    iconBg: "bg-sky-50",
+    iconColor: "text-sky-600",
   },
   {
     icon: (
@@ -71,6 +83,10 @@ const VALUES = [
       "Whatever you're going through, big or small, it's valid. This space exists for you, with no labels and no shame.",
     descriptionNp:
       "तपाईं जे भोगिरहनुभएको छ — ठूलो होस् वा सानो — त्यो मान्य छ। यो ठाउँ तपाईंका लागि हो, कुनै लेबल छैन, कुनै लाज छैन।",
+    bar: "from-rose-400 to-pink-400",
+    border: "border-rose-200/60",
+    iconBg: "bg-rose-50",
+    iconColor: "text-rose-600",
   },
 ];
 
@@ -204,17 +220,20 @@ export function AboutContent() {
             {VALUES.map((v) => (
               <div
                 key={v.title}
-                className="bg-white rounded-2xl border border-stone-100 p-6 space-y-3 shadow-sm hover:shadow-md transition-shadow duration-300"
+                className={`bg-white rounded-2xl border overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 ${v.border}`}
               >
-                <div className="w-10 h-10 rounded-xl bg-amber-50 flex items-center justify-center">
-                  <svg className="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    {v.icon}
-                  </svg>
+                <div className={`h-1 bg-gradient-to-r ${v.bar}`} />
+                <div className="p-6 space-y-3">
+                  <div className={`w-10 h-10 rounded-xl ${v.iconBg} flex items-center justify-center`}>
+                    <svg className={`w-5 h-5 ${v.iconColor}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      {v.icon}
+                    </svg>
+                  </div>
+                  <h3 className="font-bold text-stone-800">{isNp ? v.titleNp : v.title}</h3>
+                  <p className="text-stone-500 text-sm leading-relaxed">
+                    {isNp ? v.descriptionNp : v.description}
+                  </p>
                 </div>
-                <h3 className="font-bold text-stone-800">{isNp ? v.titleNp : v.title}</h3>
-                <p className="text-stone-500 text-sm leading-relaxed">
-                  {isNp ? v.descriptionNp : v.description}
-                </p>
               </div>
             ))}
           </div>
