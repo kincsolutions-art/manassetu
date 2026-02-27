@@ -31,7 +31,7 @@ const t = {
     badge: "प्रमाणित नेपाल Directory",
     heading: "सहयोग खोज्नुहोस्",
     description: (count: number) =>
-      `नेपालमा ${count} वटा प्रमाणित मानसिक स्वास्थ्य सेवाहरू — crisis line देखि counselor र अस्पतालसम्म।`,
+      `नेपालमा ${count} वटा प्रमाणित मानसिक स्वास्थ्य सेवाहरू। Crisis line देखि counselor र अस्पतालसम्म।`,
     crisisHeading: "अहिले नै सहयोग चाहिन्छ?",
   },
 };

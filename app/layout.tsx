@@ -1,17 +1,26 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
+import { Mukta } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { LanguageProvider } from "@/components/LanguageContext";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const generalSans = localFont({
+  src: [
+    { path: "../public/fonts/GeneralSans-Regular.woff2", weight: "400", style: "normal" },
+    { path: "../public/fonts/GeneralSans-Medium.woff2", weight: "500", style: "normal" },
+    { path: "../public/fonts/GeneralSans-Semibold.woff2", weight: "600", style: "normal" },
+    { path: "../public/fonts/GeneralSans-Bold.woff2", weight: "700", style: "normal" },
+  ],
+  variable: "--font-general-sans",
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const mukta = Mukta({
+  subsets: ["devanagari", "latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-devanagari",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -38,7 +47,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${generalSans.variable} ${mukta.variable} antialiased`}>
         <LanguageProvider>{children}</LanguageProvider>
         <Analytics />
       </body>

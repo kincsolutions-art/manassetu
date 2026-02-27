@@ -310,9 +310,6 @@ export function SupportDirectory({ helplines }: { helplines: Helpline[] }) {
         <p className="text-stone-500 text-sm leading-relaxed max-w-xl mx-auto">
           {s.footerNote} <span className="font-semibold text-stone-700">{s.footerDate}</span>{s.footerSuffix}
         </p>
-        <Link href="/" className="inline-flex items-center gap-1 text-amber-600 text-sm font-semibold hover:underline">
-          {s.backLink}
-        </Link>
       </div>
     </div>
   );

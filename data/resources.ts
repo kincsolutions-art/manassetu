@@ -27,11 +27,11 @@ export const resources: Resource[] = [
     title: "Anxiety & Panic",
     titleNp: "चिन्ता र आत्तिने समस्या",
     subtitle: "Your body is trying to protect you. It just got the volume wrong.",
-    subtitleNp: "तिम्रो शरीरले तिमीलाई जोगाउन खोज्दैछ। अलि बढी नै react गर्‍यो, बस्।",
+    subtitleNp: "तपाईंको शरीरले तपाईंलाई जोगाउन खोज्दैछ। अलि बढी नै react गर्‍यो, बस्।",
     normalizer:
       "Anxiety is one of the most common experiences on earth. It does not mean you are weak or broken. Your nervous system is doing its job, sometimes a little too well.",
     normalizerNp:
-      "Anxiety संसारमा सबैभन्दा सामान्य अनुभवहरू मध्ये एक हो। यसको मतलब तिमी कमजोर छौ भन्ने होइन। तिम्रो शरीरले आफ्नो काम गरिरहेको छ — कहिलेकाहीँ अलि बढी नै।",
+      "Anxiety संसारमा सबैभन्दा सामान्य अनुभवहरू मध्ये एक हो। यसको मतलब तपाईं कमजोर हुनुहुन्छ भन्ने होइन। तपाईंको शरीरले आफ्नो काम गरिरहेको छ, कहिलेकाहीँ अलि बढी नै।",
     commonThoughts: [
       '"Something terrible is about to happen"',
       '"I can\'t breathe / I\'m dying"',
@@ -57,7 +57,7 @@ export const resources: Resource[] = [
           "1 thing you can taste",
         ],
         stepsNp: [
-          "तिमीले देख्न सक्ने ५ वटा कुरा भन",
+          "तपाईंले देख्न सक्ने ५ वटा कुरा भन्नुहोस्",
           "छुन सक्ने ४ वटा कुरा",
           "सुन्न सक्ने ३ वटा कुरा",
           "गन्ध आउने २ वटा कुरा",
@@ -76,11 +76,11 @@ export const resources: Resource[] = [
           "Repeat 5 times. Notice your heartbeat slowing",
         ],
         stepsNp: [
-          "४ सेकेन्ड सास भित्र तान",
-          "४ सेकेन्ड रोक",
-          "४ सेकेन्ड बिस्तारै छोड",
-          "४ सेकेन्ड फेरि रोक",
-          "५ पटक दोहोर्‍याउ। मुटुको धड्कन सुस्ताउँदै गएको महसुस गर",
+          "४ सेकेन्ड सास भित्र तान्नुहोस्",
+          "४ सेकेन्ड रोक्नुहोस्",
+          "४ सेकेन्ड बिस्तारै छोड्नुहोस्",
+          "४ सेकेन्ड फेरि रोक्नुहोस्",
+          "५ पटक दोहोर्‍याउनुहोस्। मुटुको धड्कन सुस्ताउँदै गएको महसुस गर्नुहोस्",
         ],
       },
       {
@@ -95,11 +95,11 @@ export const resources: Resource[] = [
           "Finish with 3 slow, deep breaths",
         ],
         stepsNp: [
-          "आराम गरेर बस वा ढल्क",
-          "खुट्टाको औंलाबाट सुरु गर, बिस्तारै शरीरको हरेक भाग महसुस गर",
-          "जहाँ तनाव छ, त्यो ठाउँमा सास पठाउ",
-          "बिस्तारै टाउकोसम्म पुग",
-          "३ वटा लामो, गहिरो सासले सक",
+          "आराम गरेर बस्नुहोस् वा ढल्कनुहोस्",
+          "खुट्टाको औंलाबाट सुरु गर्नुहोस्, बिस्तारै शरीरको हरेक भाग महसुस गर्नुहोस्",
+          "जहाँ तनाव छ, त्यो ठाउँमा सास पठाउनुहोस्",
+          "बिस्तारै टाउकोसम्म पुग्नुहोस्",
+          "३ वटा लामो, गहिरो सासले सक्नुहोस्",
         ],
       },
     ],
@@ -121,11 +121,11 @@ export const resources: Resource[] = [
     title: "Exam Stress & Burnout",
     titleNp: "परीक्षाको तनाव र थकान",
     subtitle: "Your worth is not your grade. Full stop.",
-    subtitleNp: "तिम्रो मूल्य तिम्रो नम्बरमा छैन। बस्।",
+    subtitleNp: "तपाईंको मूल्य तपाईंको नम्बरमा छैन। बस्।",
     normalizer:
       "Exam pressure is real, especially when everyone around you seems to be handling it fine (they're not). Burnout means you've been trying hard, not that you've failed.",
     normalizerNp:
-      "परीक्षाको pressure सँच्चै ठूलो हुन्छ, खासगरी जब सबैले सजिलै गरिरहेको जस्तो देखिन्छ (तर उनीहरूले पनि गरिरहेका हुँदैनन्)। थकान भन्ने कुरा तिमीले धेरै मेहनत गर्‍यौ भन्ने हो, fail भयौ भन्ने होइन।",
+      "परीक्षाको pressure सँच्चै ठूलो हुन्छ, खासगरी जब सबैले सजिलै गरिरहेको जस्तो देखिन्छ (तर उनीहरूले पनि गरिरहेका हुँदैनन्)। थकान भन्ने कुरा तपाईंले धेरै मेहनत गर्नुभयो भन्ने हो, fail हुनुभयो भन्ने होइन।",
     commonThoughts: [
       '"I\'m going to fail everything"',
       '"Everyone else is way ahead of me"',
@@ -149,9 +149,9 @@ export const resources: Resource[] = [
           "Close it. You've moved them out of your head",
         ],
         stepsNp: [
-          "कुनै पनि कागज वा notes app खोल",
-          "दिमागमा जे जे छ सबै लेख। फिल्टर नगर",
-          "बन्द गर। ती कुराहरू अब तिम्रो टाउकोभन्दा बाहिर छन्",
+          "कुनै पनि कागज वा notes app खोल्नुहोस्",
+          "दिमागमा जे जे छ सबै लेख्नुहोस्। फिल्टर नगर्नुहोस्",
+          "बन्द गर्नुहोस्। ती कुराहरू अब तपाईंको टाउकोभन्दा बाहिर छन्",
         ],
       },
       {
@@ -165,10 +165,10 @@ export const resources: Resource[] = [
           "Return to study with just one small task chosen",
         ],
         stepsNp: [
-          "५ मिनेटको पूरा break को लागि timer लगाउ",
-          "उठ, stretch गर, मुखमा पानी छ्याप",
-          "झ्यालबाट बाहिर हेर वा आकाशतिर हेर",
-          "एउटा सानो काम छानेर पढाइमा फर्क",
+          "५ मिनेटको पूरा break को लागि timer लगाउनुहोस्",
+          "उठ्नुहोस्, stretch गर्नुहोस्, मुखमा पानी छ्याप्नुहोस्",
+          "झ्यालबाट बाहिर हेर्नुहोस् वा आकाशतिर हेर्नुहोस्",
+          "एउटा सानो काम छानेर पढाइमा फर्कनुहोस्",
         ],
       },
       {
@@ -182,10 +182,10 @@ export const resources: Resource[] = [
           "Start with the easiest of the 3 to build momentum",
         ],
         stepsNp: [
-          "गर्नुपर्छ भन्ने लाग्ने सबै कुरा list गर",
-          "आजका लागि सबैभन्दा जरुरी ३ वटा मात्र छान",
-          "भोलिसम्म पर्खन सक्ने कुरा काट",
-          "ती ३ मध्ये सबैभन्दा सजिलोबाट सुरु गर",
+          "गर्नुपर्छ भन्ने लाग्ने सबै कुरा list गर्नुहोस्",
+          "आजका लागि सबैभन्दा जरुरी ३ वटा मात्र छान्नुहोस्",
+          "भोलिसम्म पर्खन सक्ने कुरा काट्नुहोस्",
+          "ती ३ मध्ये सबैभन्दा सजिलोबाट सुरु गर्नुहोस्",
         ],
       },
     ],
@@ -211,7 +211,7 @@ export const resources: Resource[] = [
     normalizer:
       "Trouble sleeping is incredibly common, especially when you're stressed or going through change. Not sleeping doesn't make you a failure; it makes you human.",
     normalizerNp:
-      "निद्रा नलाग्नु एकदमै सामान्य कुरा हो, खासगरी तनावमा हुँदा वा जीवनमा परिवर्तन आउँदा। निद्रा नलागेको भनेर तिमी fail भएको होइन — तिमी मान्छे हौ।",
+      "निद्रा नलाग्नु एकदमै सामान्य कुरा हो, खासगरी तनावमा हुँदा वा जीवनमा परिवर्तन आउँदा। निद्रा नलागेको भनेर तपाईं fail हुनुभएको होइन। तपाईं मान्छे हुनुहुन्छ।",
     commonThoughts: [
       '"I\'ll never fall asleep"',
       '"Tomorrow is going to be terrible"',
@@ -236,10 +236,10 @@ export const resources: Resource[] = [
           "Repeat 3 times",
         ],
         stepsNp: [
-          "नाकबाट ४ सेकेन्ड सास भित्र तान",
-          "७ सेकेन्ड सास रोक",
-          "मुखबाट ८ सेकेन्ड बिस्तारै सास छोड",
-          "३ पटक दोहोर्‍याउ",
+          "नाकबाट ४ सेकेन्ड सास भित्र तान्नुहोस्",
+          "७ सेकेन्ड सास रोक्नुहोस्",
+          "मुखबाट ८ सेकेन्ड बिस्तारै सास छोड्नुहोस्",
+          "३ पटक दोहोर्‍याउनुहोस्",
         ],
       },
       {
@@ -253,10 +253,10 @@ export const resources: Resource[] = [
           "Close the notebook. Those thoughts are parked",
         ],
         stepsNp: [
-          "ओछ्यानको छेउमा एउटा notebook राख",
-          "जागा राख्ने हरेक विचार लेख",
-          "हरेकको छेउमा लेख: 'यो भोलि हेर्छु'",
-          "Notebook बन्द गर। ती विचारहरू अब park भइसके",
+          "ओछ्यानको छेउमा एउटा notebook राख्नुहोस्",
+          "जागा राख्ने हरेक विचार लेख्नुहोस्",
+          "हरेकको छेउमा लेख्नुहोस्: 'यो भोलि हेर्छु'",
+          "Notebook बन्द गर्नुहोस्। ती विचारहरू अब park भइसके",
         ],
       },
       {
@@ -271,11 +271,11 @@ export const resources: Resource[] = [
           "Let your body feel heavy against the bed",
         ],
         stepsNp: [
-          "सिधा ढल्क, हात छेउमा राख",
-          "खुट्टालाई ५ सेकेन्ड कडा पार, अनि छोड",
-          "पिँडौला, तिघ्रा, पेट, हात, पाखुरा, काँध, अनुहारमा पनि यस्तै गर",
-          "हरेक पटक 'छोड्दा' कस्तो फरक महसुस हुन्छ ध्यान दे",
-          "शरीरलाई ओछ्यानमा गह्रौं भएको महसुस गर",
+          "सिधा ढल्कनुहोस्, हात छेउमा राख्नुहोस्",
+          "खुट्टालाई ५ सेकेन्ड कडा पार्नुहोस्, अनि छोड्नुहोस्",
+          "पिँडौला, तिघ्रा, पेट, हात, पाखुरा, काँध, अनुहारमा पनि यस्तै गर्नुहोस्",
+          "हरेक पटक 'छोड्दा' कस्तो फरक महसुस हुन्छ ध्यान दिनुहोस्",
+          "शरीरलाई ओछ्यानमा गह्रौं भएको महसुस गर्नुहोस्",
         ],
       },
     ],
@@ -297,11 +297,11 @@ export const resources: Resource[] = [
     title: "Low Mood & Hopelessness",
     titleNp: "मन भारी हुनु र निराशा",
     subtitle: "This heaviness is not your personality. It's something you're carrying.",
-    subtitleNp: "यो भारीपन तिम्रो स्वभाव होइन। तिमीले बोकिरहेको कुरा हो।",
+    subtitleNp: "यो भारीपन तपाईंको स्वभाव होइन। तपाईंले बोकिरहेको कुरा हो।",
     normalizer:
       "Low mood can feel permanent, but it isn't. The fact that you're reading this means something in you is still looking for light, and that matters more than you think.",
     normalizerNp:
-      "मन खराब हुँदा यो सधैंका लागि हो जस्तो लाग्छ, तर होइन। तिमी यो पढिरहेको छौ भन्ने कुरा नै — तिम्रो भित्रको कोहीले अझै उज्यालो खोजिरहेको छ। यो कुरा तिमीलाई लाग्ने भन्दा धेरै ठूलो हो।",
+      "मन खराब हुँदा यो सधैंका लागि हो जस्तो लाग्छ, तर होइन। तपाईं यो पढिरहनुभएको छ भन्ने कुरा नै, तपाईंको भित्रको कोहीले अझै उज्यालो खोजिरहेको छ। यो कुरा तपाईंलाई लाग्ने भन्दा धेरै ठूलो हो।",
     commonThoughts: [
       '"Nothing will ever get better"',
       '"I\'m a burden to everyone"',
@@ -325,9 +325,9 @@ export const resources: Resource[] = [
           "That's it. You did something. That counts",
         ],
         stepsNp: [
-          "अहिले गर्न सकिने सबैभन्दा सानो राम्रो काम सोच",
-          "एक गिलास पानी खाउ। पर्दा खोल। मुख धो",
-          "बस्, त्यति नै। तिमीले केही गर्‍यौ। यो मायने राख्छ",
+          "अहिले गर्न सकिने सबैभन्दा सानो राम्रो काम सोच्नुहोस्",
+          "एक गिलास पानी खानुहोस्। पर्दा खोल्नुहोस्। मुख धुनुहोस्",
+          "बस्, त्यति नै। तपाईंले केही गर्नुभयो। यो मायने राख्छ",
         ],
       },
       {
@@ -341,10 +341,10 @@ export const resources: Resource[] = [
           "Notice how the feeling shifts even slightly",
         ],
         stepsNp: [
-          "मन खराबले तिमीलाई के गराउन खोज्छ ध्यान दे (ओछ्यानमा बस, एक्लो बस)",
-          "बिस्तारै उल्टो गर: उठ, एक जनालाई message पठाउ, बाहिर निस्क",
-          "मन लाग्नु पर्दैन। शरीर मात्र चलाउ",
-          "अलिकति भए पनि फरक महसुस हुन्छ कि हेर",
+          "मन खराबले तपाईंलाई के गराउन खोज्छ ध्यान दिनुहोस् (ओछ्यानमा बस्नुहोस्, एक्लो बस्नुहोस्)",
+          "बिस्तारै उल्टो गर्नुहोस्: उठ्नुहोस्, एक जनालाई message पठाउनुहोस्, बाहिर निस्कनुहोस्",
+          "मन लाग्नु पर्दैन। शरीर मात्र चलाउनुहोस्",
+          "अलिकति भए पनि फरक महसुस हुन्छ कि हेर्नुहोस्",
         ],
       },
       {
@@ -358,10 +358,10 @@ export const resources: Resource[] = [
           "Read it aloud once. Your voice needs to hear it",
         ],
         stepsNp: [
-          "तिमीलाई कृतज्ञ बनाउने ३ कुरा लेख (सानो भए पनि हुन्छ)",
-          "हरेकका लागि आँखा चिम्म, ३० सेकेन्ड त्यो कुरा महसुस गर",
-          "आफ्नो बारेमा एउटा राम्रो कुरा लेख, जबरजस्ती भए पनि",
-          "एक पटक ठूलो स्वरमा पढ। तिम्रो कानले पनि सुन्नु पर्छ",
+          "तपाईंलाई कृतज्ञ बनाउने ३ कुरा लेख्नुहोस् (सानो भए पनि हुन्छ)",
+          "हरेकका लागि आँखा चिम्म, ३० सेकेन्ड त्यो कुरा महसुस गर्नुहोस्",
+          "आफ्नो बारेमा एउटा राम्रो कुरा लेख्नुहोस्, जबरजस्ती भए पनि",
+          "एक पटक ठूलो स्वरमा पढ्नुहोस्। तपाईंको कानले पनि सुन्नु पर्छ",
         ],
       },
     ],
@@ -383,11 +383,11 @@ export const resources: Resource[] = [
     title: "Loneliness",
     titleNp: "एक्लोपन",
     subtitle: "Being surrounded by people and still feeling alone is real, and valid.",
-    subtitleNp: "मान्छेको भीडमा भएर पनि एक्लो महसुस हुनु — यो सँच्चैको कुरा हो।",
+    subtitleNp: "मान्छेको भीडमा भएर पनि एक्लो महसुस हुनु, यो सँच्चैको कुरा हो।",
     normalizer:
       "Loneliness isn't about being alone. It's about feeling disconnected. It's one of the most painful human experiences, and it says nothing about your value as a person.",
     normalizerNp:
-      "एक्लोपन भनेको एक्लो हुनु होइन। जोडिएको महसुस नहुनु हो। यो मान्छेको सबैभन्दा पीडादायक अनुभवहरू मध्ये एक हो, र यसले तिम्रो मूल्यको बारेमा केही भन्दैन।",
+      "एक्लोपन भनेको एक्लो हुनु होइन। जोडिएको महसुस नहुनु हो। यो मान्छेको सबैभन्दा पीडादायक अनुभवहरू मध्ये एक हो, र यसले तपाईंको मूल्यको बारेमा केही भन्दैन।",
     commonThoughts: [
       '"Nobody actually cares about me"',
       '"I don\'t fit in anywhere"',
@@ -411,7 +411,7 @@ export const resources: Resource[] = [
           "Connection starts with one small reach",
         ],
         stepsNp: [
-          "एक जनालाई सामान्य message पठाउ: 'ए, तिम्रो सम्झना आयो'",
+          "एक जनालाई सामान्य message पठाउनुहोस्: 'ए, तपाईंको सम्झना आयो'",
           "बस्, त्यति नै। कारण चाहिँदैन",
           "जोडान एउटा सानो कदमबाट सुरु हुन्छ",
         ],
@@ -427,10 +427,10 @@ export const resources: Resource[] = [
           "Pick one and lean into it today",
         ],
         stepsNp: [
-          "तिमीलाई माया गर्ने ३ जना मान्छे सम्झ",
-          "तिमी belong गरेको महसुस भएको ३ ठाउँ सम्झ, अलि बेरका लागि भए पनि",
-          "जोडिएको महसुस गराउने ३ कुरा सम्झ (गीत, बिरालो, प्रकृति)",
-          "एउटा छान र आज त्यसमा डुब",
+          "तपाईंलाई माया गर्ने ३ जना मान्छे सम्झनुहोस्",
+          "तपाईं belong गरेको महसुस भएको ३ ठाउँ सम्झनुहोस्, अलि बेरका लागि भए पनि",
+          "जोडिएको महसुस गराउने ३ कुरा सम्झनुहोस् (गीत, बिरालो, प्रकृति)",
+          "एउटा छान्नुहोस् र आज त्यसमा डुब्नुहोस्",
         ],
       },
       {
@@ -444,10 +444,10 @@ export const resources: Resource[] = [
           "Keep this letter. Read it when the loneliness hits again",
         ],
         stepsNp: [
-          "आफ्नो सबैभन्दा नजिकको साथी भएझैं आफूलाई एउटा छोटो चिठी लेख",
-          "के भन्ने थियौ? के सम्झाउने थियौ?",
-          "सँच्चैका कुरा लेख — तिमीले गरेका, सहेका कुराहरू",
-          "यो चिठी राख। एक्लोपन आउँदा फेरि पढ",
+          "आफ्नो सबैभन्दा नजिकको साथी भएझैं आफूलाई एउटा छोटो चिठी लेख्नुहोस्",
+          "के भन्नुहुन्थ्यो? के सम्झाउनुहुन्थ्यो?",
+          "सँच्चैका कुरा लेख्नुहोस्। तपाईंले गरेका, सहेका कुराहरू",
+          "यो चिठी राख्नुहोस्। एक्लोपन आउँदा फेरि पढ्नुहोस्",
         ],
       },
     ],
@@ -469,11 +469,11 @@ export const resources: Resource[] = [
     title: "Bullying & Harassment",
     titleNp: "Bullying र हैरानी",
     subtitle: "What they did says everything about them and nothing about you.",
-    subtitleNp: "उनीहरूले गरेको कुराले उनीहरूको बारेमा भन्छ, तिम्रो बारेमा होइन।",
+    subtitleNp: "उनीहरूले गरेको कुराले उनीहरूको बारेमा भन्छ, तपाईंको बारेमा होइन।",
     normalizer:
       "Being bullied leaves real wounds, even if nobody can see them. You are not 'too sensitive.' The people who hurt you are responsible, not you.",
     normalizerNp:
-      "Bully हुनुले सँच्चैका घाउ छोड्छ, कसैले नदेखे पनि। तिमी 'अति sensitive' छौ भन्ने होइन। तिमीलाई दुखाउनेहरू जिम्मेवार हुन्, तिमी होइन।",
+      "Bully हुनुले सँच्चैका घाउ छोड्छ, कसैले नदेखे पनि। तपाईं 'अति sensitive' हुनुहुन्छ भन्ने होइन। तपाईंलाई दुखाउनेहरू जिम्मेवार हुन्, तपाईं होइन।",
     commonThoughts: [
       '"Maybe I deserve this"',
       '"Nobody will believe me"',
@@ -497,9 +497,9 @@ export const resources: Resource[] = [
           "Breathe in strength. Breathe out their noise",
         ],
         stepsNp: [
-          "आँखा चिम्म। तिम्रो वरिपरि न्यानो सुनौलो उज्यालो कल्पना गर",
+          "आँखा चिम्म। तपाईंको वरिपरि न्यानो सुनौलो उज्यालो कल्पना गर्नुहोस्",
           "उनीहरूका शब्दहरू त्यो उज्यालोमा ठोक्किन्छन् र बिलाउँछन्",
-          "सास भित्र तान्दा शक्ति ल्याउ। छोड्दा उनीहरूको हल्ला बाहिर पठाउ",
+          "सास भित्र तान्दा शक्ति ल्याउनुहोस्। छोड्दा उनीहरूको हल्ला बाहिर पठाउनुहोस्",
         ],
       },
       {
@@ -513,10 +513,10 @@ export const resources: Resource[] = [
           "Note how it made you feel. Your feelings are evidence too",
         ],
         stepsNp: [
-          "ठ्याक्कै के भयो लेख: मिति, ठाउँ, शब्दहरू",
-          "Online भए screenshot लिएर राख। सबै save गर",
-          "यो तिम्रो record हो। पछि चाहिन सक्छ, र यसले तिम्रो कुरा पुष्टि गर्छ",
-          "कस्तो महसुस भयो त्यो पनि लेख। तिम्रो भावना पनि proof हो",
+          "ठ्याक्कै के भयो लेख्नुहोस्: मिति, ठाउँ, शब्दहरू",
+          "Online भए screenshot लिएर राख्नुहोस्। सबै save गर्नुहोस्",
+          "यो तपाईंको record हो। पछि चाहिन सक्छ, र यसले तपाईंको कुरा पुष्टि गर्छ",
+          "कस्तो महसुस भयो त्यो पनि लेख्नुहोस्। तपाईंको भावना पनि proof हो",
         ],
       },
       {
@@ -530,10 +530,10 @@ export const resources: Resource[] = [
           "Read the truth column aloud. Repeat it until it sticks",
         ],
         stepsNp: [
-          "उनीहरूले तिम्रो बारेमा भनेको सबैभन्दा नराम्रो कुरा लेख",
-          "छेउमा सत्य लेख: तिमी सँच्चै को हौ",
-          "तिमीलाई सँच्चै चिन्ने ३ जना list गर",
-          "सत्य वाला भाग ठूलो स्वरमा पढ। बसेसम्म दोहोर्‍याउ",
+          "उनीहरूले तपाईंको बारेमा भनेको सबैभन्दा नराम्रो कुरा लेख्नुहोस्",
+          "छेउमा सत्य लेख्नुहोस्: तपाईं सँच्चै को हुनुहुन्छ",
+          "तपाईंलाई सँच्चै चिन्ने ३ जना list गर्नुहोस्",
+          "सत्य वाला भाग ठूलो स्वरमा पढ्नुहोस्। बसेसम्म दोहोर्‍याउनुहोस्",
         ],
       },
     ],
@@ -555,11 +555,11 @@ export const resources: Resource[] = [
     title: "Family Conflict",
     titleNp: "घरपरिवारमा झगडा",
     subtitle: "You can love your family and still be hurt by them. Both are true.",
-    subtitleNp: "परिवारलाई माया गर्नु र उनीहरूबाट दुख्नु — दुवै सँच्चै हो।",
+    subtitleNp: "परिवारलाई माया गर्नु र उनीहरूबाट दुख्नु, दुवै सँच्चै हो।",
     normalizer:
       "Family conflict is confusing because the people causing pain are often the same people you love. You are allowed to set boundaries, even with family.",
     normalizerNp:
-      "घरको झगडा अलमल्याउने हुन्छ किनभने दुखाउने मान्छेहरू नै तिम्रा माया गर्ने मान्छे हुन्। परिवारसँग पनि सीमा राख्न पाइन्छ।",
+      "घरको झगडा अलमल्याउने हुन्छ किनभने दुखाउने मान्छेहरू नै तपाईंका माया गर्ने मान्छे हुन्। परिवारसँग पनि सीमा राख्न पाइन्छ।",
     commonThoughts: [
       '"Other families are normal, mine is broken"',
       '"I have to keep the peace"',
@@ -583,9 +583,9 @@ export const resources: Resource[] = [
           "Take 5 slow breaths. You can come back when you're ready",
         ],
         stepsNp: [
-          "झगडा बढ्दै गएमा भन: 'मलाई एक छिन चाहियो'",
-          "अर्को कोठामा जा, बाहिर निस्क, वा headphone लगाउ",
-          "५ लामो सास ले। तयार हुँदा फर्कन सक्छौ",
+          "झगडा बढ्दै गएमा भन्नुहोस्: 'मलाई एक छिन चाहियो'",
+          "अर्को कोठामा जानुहोस्, बाहिर निस्कनुहोस्, वा headphone लगाउनुहोस्",
+          "५ लामो सास लिनुहोस्। तयार हुँदा फर्कन सक्नुहुन्छ",
         ],
       },
       {
@@ -599,9 +599,9 @@ export const resources: Resource[] = [
           "You don't need to fix them. You just need to protect you",
         ],
         stepsNp: [
-          "बारम्बार दुखाउने एउटा कुरा सोच",
+          "बारम्बार दुखाउने एउटा कुरा सोच्नुहोस्",
           "शान्त भएर एउटा वाक्य लेख: 'तपाईंले ___ गर्दा, मलाई ___ महसुस हुन्छ'",
-          "शान्त स्वरमा, दोष नदिई, ठूलो स्वरमा अभ्यास गर",
+          "शान्त स्वरमा, दोष नदिई, ठूलो स्वरमा अभ्यास गर्नुहोस्",
           "उनीहरूलाई सुधार्नु पर्दैन। आफूलाई जोगाउनु पर्छ",
         ],
       },
@@ -616,10 +616,10 @@ export const resources: Resource[] = [
           "Plan a way to reach one of these safe spaces when things get bad",
         ],
         stepsNp: [
-          "दैनिक जीवनको सरल नक्सा कोर (घर, स्कुल, आदि)",
-          "सुरक्षित महसुस हुने ठाउँ चिन्ह लगाउ: साथीको घर, library, पार्क",
-          "परिवार बाहिरका २ जना भरपर्दो मान्छे पत्ता लगाउ",
-          "कुरा नराम्रो हुँदा ती सुरक्षित ठाउँ पुग्ने तरिका सोच",
+          "दैनिक जीवनको सरल नक्सा कोर्नुहोस् (घर, स्कुल, आदि)",
+          "सुरक्षित महसुस हुने ठाउँ चिन्ह लगाउनुहोस्: साथीको घर, library, पार्क",
+          "परिवार बाहिरका २ जना भरपर्दो मान्छे पत्ता लगाउनुहोस्",
+          "कुरा नराम्रो हुँदा ती सुरक्षित ठाउँ पुग्ने तरिका सोच्नुहोस्",
         ],
       },
     ],
@@ -645,7 +645,7 @@ export const resources: Resource[] = [
     normalizer:
       "Grief doesn't follow a timeline or a neat set of stages. Some days are okay. Some days knock you flat. All of it is normal. All of it is allowed.",
     normalizerNp:
-      "शोक कुनै timeline अनुसार हुँदैन। कुनै दिन ठिक हुन्छ, कुनै दिन ढल्छौ। सबै सामान्य हो। सबैको अनुमति छ।",
+      "शोक कुनै timeline अनुसार हुँदैन। कुनै दिन ठिक हुन्छ, कुनै दिन ढल्नुहुन्छ। सबै सामान्य हो। सबैको अनुमति छ।",
     commonThoughts: [
       '"I should be over this by now"',
       '"I feel guilty for laughing / being happy"',
@@ -662,16 +662,16 @@ export const resources: Resource[] = [
       {
         duration: "1 min",
         title: "Name It to Tame It",
-        titleNp: "भन — हल्का हुन्छ",
+        titleNp: "भन्नुहोस्, हल्का हुन्छ",
         steps: [
           "Put your hand on your chest",
           "Say aloud: 'I am grieving, and that's okay'",
           "Take one deep breath. Let whatever comes, come",
         ],
         stepsNp: [
-          "हात छातीमा राख",
-          "ठूलो स्वरमा भन: 'म शोकमा छु, र यो ठिक छ'",
-          "एउटा गहिरो सास ले। जे आउँछ, आउन दे",
+          "हात छातीमा राख्नुहोस्",
+          "ठूलो स्वरमा भन्नुहोस्: 'म शोकमा छु, र यो ठिक छ'",
+          "एउटा गहिरो सास लिनुहोस्। जे आउँछ, आउन दिनुहोस्",
         ],
       },
       {
@@ -685,10 +685,10 @@ export const resources: Resource[] = [
           "Say 'thank you' to the memory before you open your eyes",
         ],
         stepsNp: [
-          "आँखा चिम्मेर एउटा राम्रो सम्झना ल्याउ",
+          "आँखा चिम्मेर एउटा राम्रो सम्झना ल्याउनुहोस्",
           "कस्तो गन्ध थियो? कस्तो आवाज? कस्तो महसुस?",
-          "हाँसो आयो भने हाँस। शोक र माया एकै ठाउँमा बस्छन्",
-          "आँखा खोल्नुअघि त्यो सम्झनालाई 'धन्यवाद' भन",
+          "हाँसो आयो भने हाँस्नुहोस्। शोक र माया एकै ठाउँमा बस्छन्",
+          "आँखा खोल्नुअघि त्यो सम्झनालाई 'धन्यवाद' भन्नुहोस्",
         ],
       },
       {
@@ -702,10 +702,10 @@ export const resources: Resource[] = [
           "End it however you need to. There are no rules here",
         ],
         stepsNp: [
-          "तिमीले गुमाएको मान्छे वा कुरालाई चिठी लेख",
-          "के याद आउँछ भन। के भन्न मन थियो भन",
-          "उनी गएपछि के-के भयो भन",
-          "जसरी सक्नु छ, सक। यहाँ कुनै नियम छैन",
+          "तपाईंले गुमाएको मान्छे वा कुरालाई चिठी लेख्नुहोस्",
+          "के याद आउँछ भन्नुहोस्। के भन्न मन थियो भन्नुहोस्",
+          "उनी गएपछि के-के भयो भन्नुहोस्",
+          "जसरी सक्नुहुन्छ, सक्नुहोस्। यहाँ कुनै नियम छैन",
         ],
       },
     ],
@@ -727,11 +727,11 @@ export const resources: Resource[] = [
     title: "Self-Harm",
     titleNp: "Self-Harm",
     subtitle: "The pain inside is real. You deserve gentler ways to cope.",
-    subtitleNp: "भित्रको पीडा सँच्चैको हो। तिमी नरम तरिकाको हकदार छौ।",
+    subtitleNp: "भित्रको पीडा सँच्चैको हो। तपाईं नरम तरिकाको हकदार हुनुहुन्छ।",
     normalizer:
       "Self-harm is not attention-seeking. It's a signal that your pain has exceeded the coping tools you have right now. You're not broken. You just need more tools.",
     normalizerNp:
-      "Self-harm भनेको ध्यान खोज्नु होइन। यो तिम्रो पीडा तिम्रा हालका उपायभन्दा बढी भयो भन्ने संकेत हो। तिमी भाँचिएको छैनौ। तिमीलाई अझ बढी उपायहरू चाहिन्छ।",
+      "Self-harm भनेको ध्यान खोज्नु होइन। यो तपाईंको पीडा तपाईंका हालका उपायभन्दा बढी भयो भन्ने संकेत हो। तपाईं भाँचिएको हुनुहुन्न। तपाईंलाई अझ बढी उपायहरू चाहिन्छ।",
     commonThoughts: [
       '"It\'s the only thing that makes me feel something"',
       '"I deserve to be punished"',
@@ -756,10 +756,10 @@ export const resources: Resource[] = [
           "Let it melt. Breathe",
         ],
         stepsNp: [
-          "एउटा बरफको टुक्रा मुट्ठीमा कसेर समा",
-          "चिसोको तीव्र महसुसमा ध्यान दे",
+          "एउटा बरफको टुक्रा मुट्ठीमा कसेर समाउनुहोस्",
+          "चिसोको तीव्र महसुसमा ध्यान दिनुहोस्",
           "यो तीखो अनुभूतिले चोट नपुर्‍याई urge हटाउन सक्छ",
-          "पग्लन दे। सास ले",
+          "पग्लन दिनुहोस्। सास लिनुहोस्",
         ],
       },
       {
@@ -774,11 +774,11 @@ export const resources: Resource[] = [
           "You gave the feeling a way out without a wound",
         ],
         stepsNp: [
-          "रातो pen वा marker ल्याउ",
-          "Urge महसुस भएको ठाउँको छालामा कोर",
-          "रेखा, pattern, शब्द, जे पनि कोर",
-          "ती चिन्हहरू हेर र बिस्तारै सास ले",
-          "तिमीले त्यो भावनालाई घाउ बिना बाहिर निकाल्यौ",
+          "रातो pen वा marker ल्याउनुहोस्",
+          "Urge महसुस भएको ठाउँको छालामा कोर्नुहोस्",
+          "रेखा, pattern, शब्द, जे पनि कोर्नुहोस्",
+          "ती चिन्हहरू हेर्नुहोस् र बिस्तारै सास लिनुहोस्",
+          "तपाईंले त्यो भावनालाई घाउ बिना बाहिर निकाल्नुभयो",
         ],
       },
       {
@@ -793,11 +793,11 @@ export const resources: Resource[] = [
           "Write what you noticed. You just proved you can ride it out",
         ],
         stepsNp: [
-          "१० मिनेटको timer लगाउ",
-          "Urge लाई कुनै काम नगरी observe गर। कहाँ महसुस हुन्छ?",
-          "हरेक मिनेट यसको तीव्रता १–१० मा rate गर",
-          "बढ्दै, peak मा पुग्दै, र घट्दै जान्छ हेर। Urge सधैं बित्छ",
-          "के महसुस भयो लेख। तिमीले भर्खरै प्रमाणित गर्‍यौ — तिमी सहन सक्छौ",
+          "१० मिनेटको timer लगाउनुहोस्",
+          "Urge लाई कुनै काम नगरी observe गर्नुहोस्। कहाँ महसुस हुन्छ?",
+          "हरेक मिनेट यसको तीव्रता १–१० मा rate गर्नुहोस्",
+          "बढ्दै, peak मा पुग्दै, र घट्दै जान्छ हेर्नुहोस्। Urge सधैं बित्छ",
+          "के महसुस भयो लेख्नुहोस्। तपाईंले भर्खरै प्रमाणित गर्नुभयो। तपाईं सहन सक्नुहुन्छ",
         ],
       },
     ],
@@ -819,11 +819,11 @@ export const resources: Resource[] = [
     title: "Addiction & Substance Use",
     titleNp: "लत र मादक पदार्थ",
     subtitle: "You were trying to survive. Now let's find a safer way.",
-    subtitleNp: "तिमी बाँच्न खोज्दै थियौ। अब अलि सुरक्षित बाटो खोजौं।",
+    subtitleNp: "तपाईं बाँच्न खोज्दै हुनुहुन्थ्यो। अब अलि सुरक्षित बाटो खोजौं।",
     normalizer:
       "Addiction often starts as a way to cope with pain. It doesn't make you weak or a bad person. Recognizing the pattern is already a brave first step.",
     normalizerNp:
-      "लत प्रायः पीडासँग जुध्ने तरिकाको रूपमा सुरु हुन्छ। यसले तिमीलाई कमजोर वा नराम्रो मान्छे बनाउँदैन। यो pattern चिन्नु नै एउटा हिम्मती पहिलो कदम हो।",
+      "लत प्रायः पीडासँग जुध्ने तरिकाको रूपमा सुरु हुन्छ। यसले तपाईंलाई कमजोर वा नराम्रो मान्छे बनाउँदैन। यो pattern चिन्नु नै एउटा हिम्मती पहिलो कदम हो।",
     commonThoughts: [
       '"I can quit anytime. I just don\'t want to"',
       '"It\'s the only thing that helps me relax"',
@@ -847,9 +847,9 @@ export const resources: Resource[] = [
           "Address the real need first: eat, rest, call someone",
         ],
         stepsNp: [
-          "आफूलाई सोध: भोकाएको, रिसाएको, एक्लो, वा थकित?",
+          "आफूलाई सोध्नुहोस्: भोकाएको, रिसाएको, एक्लो, वा थकित?",
           "Craving प्रायः यी चार मध्ये एउटा लुकेको हुन्छ",
-          "पहिले सँच्चैको खाँचो पूरा गर: खाउ, आराम गर, कसैलाई फोन गर",
+          "पहिले सँच्चैको खाँचो पूरा गर्नुहोस्: खानुहोस्, आराम गर्नुहोस्, कसैलाई फोन गर्नुहोस्",
         ],
       },
       {
@@ -863,9 +863,9 @@ export const resources: Resource[] = [
           "Most cravings peak at 3–5 minutes and then weaken",
         ],
         stepsNp: [
-          "Craving आउँदा ५ मिनेटको timer लगाउ",
-          "ती ५ मिनेटमा एउटा शारीरिक काम गर: हिँड, push-up गर, मुखमा चिसो पानी लगाउ",
-          "Timer सकिएपछि हेर: craving अझै १०/१० छ?",
+          "Craving आउँदा ५ मिनेटको timer लगाउनुहोस्",
+          "ती ५ मिनेटमा एउटा शारीरिक काम गर्नुहोस्: हिँड्नुहोस्, push-up गर्नुहोस्, मुखमा चिसो पानी लगाउनुहोस्",
+          "Timer सकिएपछि हेर्नुहोस्: craving अझै १०/१० छ?",
           "धेरैजसो craving ३–५ मिनेटमा peak हुन्छ अनि कम हुन्छ",
         ],
       },
@@ -881,11 +881,11 @@ export const resources: Resource[] = [
           "Keep this map on your phone",
         ],
         stepsNp: [
-          "पछिल्लो ३ पटक सेवन गरेको बारेमा लेख",
-          "हरेकमा: ठिक अघि के भयो? कोसँग थियौ? कस्तो महसुस थियो?",
-          "Pattern मा गोलो लगाउ। यी हुन् तिम्रा trigger",
-          "हरेक trigger का लागि एउटा alternative लेख (साथीलाई call, हिँड्न जा, chewing gum चपाउ)",
-          "यो map फोनमा राख",
+          "पछिल्लो ३ पटक सेवन गरेको बारेमा लेख्नुहोस्",
+          "हरेकमा: ठिक अघि के भयो? कोसँग हुनुहुन्थ्यो? कस्तो महसुस थियो?",
+          "Pattern मा गोलो लगाउनुहोस्। यी हुन् तपाईंका trigger",
+          "हरेक trigger का लागि एउटा alternative लेख्नुहोस् (साथीलाई call, हिँड्न जानुहोस्, chewing gum चपाउनुहोस्)",
+          "यो map फोनमा राख्नुहोस्",
         ],
       },
     ],
@@ -899,7 +899,7 @@ export const resources: Resource[] = [
       "उही असर पाउन बढी चाहिन्छ",
       "छोड्दा withdrawal लक्षण आउँछ",
       "सम्बन्ध, काम, वा स्वास्थ्यमा असर पारिरहेको",
-      "धेरै पटक छोड्न खोज्यौ तर सकेनौ",
+      "धेरै पटक छोड्न खोज्नुभयो तर सक्नुभएन",
     ],
   },
   {
@@ -907,11 +907,11 @@ export const resources: Resource[] = [
     title: "Trauma & PTSD",
     titleNp: "Trauma र PTSD",
     subtitle: "What happened to you was not your fault. Your reactions make sense.",
-    subtitleNp: "तिमीसँग जे भयो त्यो तिम्रो गल्ती थिएन। तिम्रो प्रतिक्रिया अर्थपूर्ण छ।",
+    subtitleNp: "तपाईंसँग जे भयो त्यो तपाईंको गल्ती थिएन। तपाईंको प्रतिक्रिया अर्थपूर्ण छ।",
     normalizer:
       "Trauma changes how your brain protects you. Flashbacks, hypervigilance, and emotional numbness are not weaknesses; they're survival responses. Healing is possible, and it doesn't have to happen on anyone else's timeline.",
     normalizerNp:
-      "Trauma ले तिम्रो दिमागले तिमीलाई जोगाउने तरिका नै बदल्छ। Flashback, अति-सतर्कता, र भावनात्मक सुन्नपन कमजोरी होइन — बाँच्ने उपाय हुन्। निको हुन सकिन्छ, र यो अरूको timeline अनुसार हुनु पर्दैन।",
+      "Trauma ले तपाईंको दिमागले तपाईंलाई जोगाउने तरिका नै बदल्छ। Flashback, अति-सतर्कता, र भावनात्मक सुन्नपन कमजोरी होइन, बाँच्ने उपाय हुन्। निको हुन सकिन्छ, र यो अरूको timeline अनुसार हुनु पर्दैन।",
     commonThoughts: [
       '"I should be over it by now"',
       '"Maybe it wasn\'t that bad"',
@@ -935,9 +935,9 @@ export const resources: Resource[] = [
           "Say aloud: 'That was then. I am here now. I am safe'",
         ],
         stepsNp: [
-          "खुट्टा जमिनमा कसेर थिच",
-          "आजको मिति, तिमी कहाँ छौ, र एउटा सुरक्षित कुरा जो देख्न सक्छौ — भन",
-          "ठूलो स्वरमा भन: 'त्यो त्यतिबेलाको कुरा थियो। म अहिले यहाँ छु। म सुरक्षित छु'",
+          "खुट्टा जमिनमा कसेर थिच्नुहोस्",
+          "आजको मिति, तपाईं कहाँ हुनुहुन्छ, र एउटा सुरक्षित कुरा जो देख्न सक्नुहुन्छ, भन्नुहोस्",
+          "ठूलो स्वरमा भन्नुहोस्: 'त्यो त्यतिबेलाको कुरा थियो। म अहिले यहाँ छु। म सुरक्षित छु'",
         ],
       },
       {
@@ -951,10 +951,10 @@ export const resources: Resource[] = [
           "Take 3 breaths. The memory is stored, not forgotten, just contained",
         ],
         stepsNp: [
-          "एउटा बलियो, ताल्चा लाग्ने भाँडो कल्पना गर: safe, vault, सन्दुक",
-          "आउने बित्तिकै त्यो सम्झना वा भावना भित्र राख",
-          "बन्द गर र ताल्चा लगाउ। पछि therapy मा, तिम्रै terms मा खोल्न सक्छौ",
-          "३ सास ले। सम्झना store भयो — बिर्सिएन, बस contain भयो",
+          "एउटा बलियो, ताल्चा लाग्ने भाँडो कल्पना गर्नुहोस्: safe, vault, सन्दुक",
+          "आउने बित्तिकै त्यो सम्झना वा भावना भित्र राख्नुहोस्",
+          "बन्द गर्नुहोस् र ताल्चा लगाउनुहोस्। पछि therapy मा, तपाईंकै terms मा खोल्न सक्नुहुन्छ",
+          "३ सास लिनुहोस्। सम्झना store भयो. बिर्सिएन, बस contain भयो",
         ],
       },
       {
@@ -969,11 +969,11 @@ export const resources: Resource[] = [
           "Remember: you can return to this place anytime",
         ],
         stepsNp: [
-          "आँखा चिम्म। पूर्ण सुरक्षित महसुस हुने ठाउँ कल्पना गर",
+          "आँखा चिम्नुहोस्। पूर्ण सुरक्षित महसुस हुने ठाउँ कल्पना गर्नुहोस्",
           "सँच्चैको वा काल्पनिक: समुद्रकिनार, कोठा, जंगल",
-          "हरेक detail भर: तापक्रम, आवाज, गन्ध, छुवाइ",
-          "केही मिनेट यहीं बस। बिस्तारै सास ले",
-          "सम्झ: तिमी जुनसुकै बेला यहाँ फर्कन सक्छौ",
+          "हरेक detail भर्नुहोस्: तापक्रम, आवाज, गन्ध, छुवाइ",
+          "केही मिनेट यहीं बस्नुहोस्। बिस्तारै सास लिनुहोस्",
+          "सम्झनुहोस्: तपाईं जुनसुकै बेला यहाँ फर्कन सक्नुहुन्छ",
         ],
       },
     ],
@@ -995,11 +995,11 @@ export const resources: Resource[] = [
     title: "Relationship Issues",
     titleNp: "सम्बन्धको समस्या",
     subtitle: "You deserve relationships that feel safe, not ones you survive.",
-    subtitleNp: "तिमी सुरक्षित महसुस हुने सम्बन्धको हकदार छौ, बाँचिरहनु पर्ने सम्बन्धको होइन।",
+    subtitleNp: "तपाईं सुरक्षित महसुस हुने सम्बन्धको हकदार हुनुहुन्छ, बाँचिरहनु पर्ने सम्बन्धको होइन।",
     normalizer:
       "Relationship pain hits differently because it comes from people we care about. Whether it's a partner, friend, or someone you're losing, your pain is valid and you don't have to figure it out alone.",
     normalizerNp:
-      "सम्बन्धको पीडा फरक हुन्छ किनभने यो माया गर्ने मान्छेबाट आउँछ। Partner होस्, साथी होस्, वा गुमाउँदै गरेको कोही — तिम्रो पीडा valid छ र तिमीले एक्लै बुझ्नु पर्दैन।",
+      "सम्बन्धको पीडा फरक हुन्छ किनभने यो माया गर्ने मान्छेबाट आउँछ। Partner होस्, साथी होस्, वा गुमाउँदै गरेको कोही. तपाईंको पीडा valid छ र तपाईंले एक्लै बुझ्नु पर्दैन।",
     commonThoughts: [
       '"Maybe I\'m the problem"',
       '"I\'ll never find someone who truly gets me"',
@@ -1023,8 +1023,8 @@ export const resources: Resource[] = [
           "Naming it takes away some of its power",
         ],
         stepsNp: [
-          "रोक र ठ्याक्कै के महसुस भइरहेछ भन: दुखेको, रिसाएको, डराएको, विश्वासघात?",
-          "भन: 'मलाई अहिले ___ महसुस भइरहेको छ'",
+          "रोक्नुहोस् र ठ्याक्कै के महसुस भइरहेछ भन्नुहोस्: दुखेको, रिसाएको, डराएको, विश्वासघात?",
+          "भन्नुहोस्: 'मलाई अहिले ___ महसुस भइरहेको छ'",
           "नाम दिँदा त्यसको शक्ति घट्छ",
         ],
       },
@@ -1039,10 +1039,10 @@ export const resources: Resource[] = [
           "Ask: can I communicate these needs? Is the person capable of hearing them?",
         ],
         stepsNp: [
-          "यो सम्बन्धबाट तिमीलाई के चाहिन्छ लेख (सुरक्षा, इमानदारी, सम्मान)",
-          "सँच्चै के पाइरहेको छौ लेख",
-          "खाली ठाउँ हेर। यी गुनासो होइन — पूरा नभएका खाँचो हुन्",
-          "सोच: यी खाँचो भन्न सक्छु? त्यो मान्छेले सुन्न सक्छ?",
+          "यो सम्बन्धबाट तपाईंलाई के चाहिन्छ लेख्नुहोस् (सुरक्षा, इमानदारी, सम्मान)",
+          "सँच्चै के पाइरहेको हुनुहुन्छ लेख्नुहोस्",
+          "खाली ठाउँ हेर्नुहोस्। यी गुनासो होइन, पूरा नभएका खाँचो हुन्",
+          "सोच्नुहोस्: यी खाँचो भन्न सक्छु? त्यो मान्छेले सुन्न सक्छ?",
         ],
       },
       {
@@ -1057,11 +1057,11 @@ export const resources: Resource[] = [
           "Decide: if the boundary is crossed again, what will you do?",
         ],
         stepsNp: [
-          "अर्को मान्छेको दुखाउने एउटा व्यवहार लेख",
-          "बरु के चाहन्छौ लेख। स्पष्ट भएर",
-          "एउटा वाक्य बनाउ: 'मलाई ___ चाहिन्छ किनभने ___'",
-          "शान्त भएर भन्ने अभ्यास गर। खाँचो भएकोमा माफी माग्नु पर्दैन",
-          "निर्णय गर: फेरि boundary तोडियो भने, के गर्छौ?",
+          "अर्को मान्छेको दुखाउने एउटा व्यवहार लेख्नुहोस्",
+          "बरु के चाहनुहुन्छ लेख्नुहोस्। स्पष्ट भएर",
+          "एउटा वाक्य बनाउनुहोस्: 'मलाई ___ चाहिन्छ किनभने ___'",
+          "शान्त भएर भन्ने अभ्यास गर्नुहोस्। खाँचो भएकोमा माफी माग्नु पर्दैन",
+          "निर्णय गर्नुहोस्: फेरि boundary तोडियो भने, के गर्नुहुन्छ?",
         ],
       },
     ],
@@ -1083,11 +1083,11 @@ export const resources: Resource[] = [
     title: "Body Image",
     titleNp: "शरीरको छवि",
     subtitle: "Your body is the least interesting thing about you, and it's still worthy of love.",
-    subtitleNp: "तिम्रो शरीर तिम्रो बारेमा सबैभन्दा कम interesting कुरा हो — तर यो अझै मायाको योग्य छ।",
+    subtitleNp: "तपाईंको शरीर तपाईंको बारेमा सबैभन्दा कम interesting कुरा हो. तर यो अझै मायाको योग्य छ।",
     normalizer:
       "In a world that profits from your insecurity, feeling uncomfortable in your body is almost inevitable. It doesn't mean something is wrong with you. It means the world has been loud, and it's time to listen to a kinder voice.",
     normalizerNp:
-      "तिम्रो असुरक्षाबाट फाइदा लिने संसारमा, शरीरमा असहज हुनु लगभग अटल छ। यसको मतलब तिमीमा केही गलत छ भन्ने होइन। संसार धेरै हल्लाइलो भयो, अब अलि नरम आवाज सुन्ने बेला हो।",
+      "तपाईंको असुरक्षाबाट फाइदा लिने संसारमा, शरीरमा असहज हुनु लगभग अटल छ। यसको मतलब तपाईंमा केही गलत छ भन्ने होइन। संसार धेरै हल्लाइलो भयो, अब अलि नरम आवाज सुन्ने बेला हो।",
     commonThoughts: [
       '"I hate how I look"',
       '"If I could just change ___, I\'d be happy"',
@@ -1111,9 +1111,9 @@ export const resources: Resource[] = [
           "This isn't about loving how you look. It's about respecting what your body does",
         ],
         stepsNp: [
-          "ऐनामा हेर र शरीरले राम्रो गर्ने एउटा कुरा खोज (सास लिन्छ, निको हुन्छ, बोकेर हिँड्छ)",
-          "ठूलो स्वरमा भन्न सक्छौ भने धन्यवाद भन",
-          "यो कस्तो देखिन्छ भन्ने बारेमा होइन। शरीरले के गर्छ — त्यसको सम्मान हो",
+          "ऐनामा हेर्नुहोस् र शरीरले राम्रो गर्ने एउटा कुरा खोज्नुहोस् (सास लिन्छ, निको हुन्छ, बोकेर हिँड्छ)",
+          "ठूलो स्वरमा भन्न सक्नुहुन्छ भने धन्यवाद भन्नुहोस्",
+          "यो कस्तो देखिन्छ भन्ने बारेमा होइन। शरीरले के गर्छ, त्यसको सम्मान हो",
         ],
       },
       {
@@ -1127,10 +1127,10 @@ export const resources: Resource[] = [
           "Your feed shapes your self-image. Curate it with intention",
         ],
         stepsNp: [
-          "Social media feed खोल",
-          "शरीरको बारेमा नराम्रो महसुस गराउने ३ account unfollow वा mute गर",
-          "सँच्चैका, विविध शरीर देखाउने वा बाहिरी रूपभन्दा अरू कुरामा focus गर्ने ३ account follow गर",
-          "तिम्रो feed ले तिम्रो self-image बनाउँछ। सोचेर curate गर",
+          "Social media feed खोल्नुहोस्",
+          "शरीरको बारेमा नराम्रो महसुस गराउने ३ account unfollow वा mute गर्नुहोस्",
+          "सँच्चैका, विविध शरीर देखाउने वा बाहिरी रूपभन्दा अरू कुरामा focus गर्ने ३ account follow गर्नुहोस्",
+          "तपाईंको feed ले तपाईंको self-image बनाउँछ। सोचेर curate गर्नुहोस्",
         ],
       },
       {
@@ -1144,10 +1144,10 @@ export const resources: Resource[] = [
           "End with one promise: a way you'll be kinder to it this week",
         ],
         stepsNp: [
-          "शरीरलाई चिठी लेख — कस्तो देखिन्छ भन्ने बारेमा होइन, तिम्रो लागि के गर्‍यो भन्ने बारेमा",
-          "खास कुराहरूमा धन्यवाद दे: घर पुर्‍यायो, कसैलाई अँगालो हाल्यो, कठिन दिन सहिदियो",
-          "यसले के-के सहेको छ स्वीकार गर",
-          "एउटा वाचा गरेर सक: यो हप्ता अलि बढी माया गर्छु",
+          "शरीरलाई चिठी लेख्नुहोस्. कस्तो देखिन्छ भन्ने बारेमा होइन, तपाईंको लागि के गर्‍यो भन्ने बारेमा",
+          "खास कुराहरूमा धन्यवाद दिनुहोस्: घर पुर्‍यायो, कसैलाई अँगालो हाल्यो, कठिन दिन सहिदियो",
+          "यसले के-के सहेको छ स्वीकार गर्नुहोस्",
+          "एउटा वाचा गरेर सक्नुहोस्: यो हप्ता अलि बढी माया गर्छु",
         ],
       },
     ],
@@ -1169,7 +1169,7 @@ export const resources: Resource[] = [
     title: "Anger & Frustration",
     titleNp: "रिस र झुन्डिने मन",
     subtitle: "Anger is a messenger. The question isn't whether to feel it, but what to do with it.",
-    subtitleNp: "रिस एउटा सन्देशवाहक हो। प्रश्न महसुस गर्ने कि नगर्ने होइन — यसलाई के गर्ने भन्ने हो।",
+    subtitleNp: "रिस एउटा सन्देशवाहक हो। प्रश्न महसुस गर्ने कि नगर्ने होइन, यसलाई के गर्ने भन्ने हो।",
     normalizer:
       "Anger gets a bad reputation, but it's a perfectly valid emotion. It usually means a boundary was crossed, a need wasn't met, or something feels deeply unfair. You're allowed to feel angry. The goal is to express it without destroying yourself or others.",
     normalizerNp:
@@ -1197,9 +1197,9 @@ export const resources: Resource[] = [
           "Repeat 3 times. This is the fastest way to calm your nervous system",
         ],
         stepsNp: [
-          "नाकबाट दुई पटक छिटो-छिटो सास तान (लगातार)",
-          "अनि मुखबाट एउटा लामो, बिस्तारै सास छोड",
-          "३ पटक दोहोर्‍याउ। Nervous system शान्त पार्ने सबैभन्दा छिटो तरिका यही हो",
+          "नाकबाट दुई पटक छिटो-छिटो सास तान्नुहोस् (लगातार)",
+          "अनि मुखबाट एउटा लामो, बिस्तारै सास छोड्नुहोस्",
+          "३ पटक दोहोर्‍याउनुहोस्। Nervous system शान्त पार्ने सबैभन्दा छिटो तरिका यही हो",
         ],
       },
       {
@@ -1213,10 +1213,10 @@ export const resources: Resource[] = [
           "Name it. The real feeling underneath is where the work is",
         ],
         stepsNp: [
-          "अहिले रिस कति छ १–१० मा rate गर",
-          "के trigger गर्‍यो लेख। स्पष्ट भएर",
+          "अहिले रिस कति छ १–१० मा rate गर्नुहोस्",
+          "के trigger गर्‍यो लेख्नुहोस्। स्पष्ट भएर",
           "रिसको तल सँच्चैको भावना के हो? (दुखेको, अपमान, डर, लाचारी)",
-          "नाम दे। तलको सँच्चैको भावनामा नै काम गर्नु पर्छ",
+          "नाम दिनुहोस्। तलको सँच्चैको भावनामा नै काम गर्नु पर्छ",
         ],
       },
       {
@@ -1231,10 +1231,10 @@ export const resources: Resource[] = [
           "Now: what do I actually need right now?",
         ],
         stepsNp: [
-          "तीव्र शारीरिक काम गर: दौड, तकिया हान, कागज च्यात, push-up गर",
-          "५ मिनेटको timer लगाएर पूरा छोड",
-          "अनि शान्त बस। चिसो पानी खाउ",
-          "लेख: सँच्चै रिस केमा थियो?",
+          "तीव्र शारीरिक काम गर्नुहोस्: दौडनुहोस्, तकिया हान्नुहोस्, कागज च्यात्नुहोस्, push-up गर्नुहोस्",
+          "५ मिनेटको timer लगाएर पूरा छोड्नुहोस्",
+          "अनि शान्त बस्नुहोस्। चिसो पानी खानुहोस्",
+          "लेख्नुहोस्: सँच्चै रिस केमा थियो?",
           "अब: मलाई अहिले सँच्चै के चाहिन्छ?",
         ],
       },
@@ -1248,8 +1248,8 @@ export const resources: Resource[] = [
     redFlagsNp: [
       "रिसको भडासमा सामान भाँचेको वा कसैलाई चोट पुर्‍याएको",
       "रिस पूर्ण रूपमा नियन्त्रण बाहिर महसुस हुन्छ",
-      "तिम्रो जीवनका मान्छेहरू तिम्रो रिसबाट डराउँछन्",
-      "विशेष परिस्थिति मात्र होइन, प्रायः जसो रिसाएकै हुन्छौ",
+      "तपाईंको जीवनका मान्छेहरू तपाईंको रिसबाट डराउँछन्",
+      "विशेष परिस्थिति मात्र होइन, प्रायः जसो रिसाएकै हुनुहुन्छ",
     ],
   },
 ];

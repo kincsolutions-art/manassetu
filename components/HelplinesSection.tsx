@@ -61,7 +61,7 @@ export function HelplinesSection() {
             </div>
             <a
               href="tel:1166"
-              className="block text-4xl md:text-5xl lg:text-6xl font-extrabold text-stone-800 tracking-tight hover:text-rose-600 transition-colors duration-300 whitespace-nowrap"
+              className="block text-4xl md:text-5xl lg:text-6xl font-extrabold text-rose-600 tracking-tight hover:text-rose-700 transition-colors duration-300 whitespace-nowrap"
             >
               1166
             </a>
@@ -79,7 +79,7 @@ export function HelplinesSection() {
             </div>
             <a
               href="tel:16600102005"
-              className="block text-4xl md:text-5xl lg:text-6xl font-extrabold text-stone-800 tracking-tight hover:text-amber-600 transition-colors duration-300 whitespace-nowrap"
+              className="block text-4xl md:text-5xl lg:text-6xl font-extrabold text-amber-600 tracking-tight hover:text-amber-700 transition-colors duration-300 whitespace-nowrap"
             >
               1660 010 2005
             </a>
