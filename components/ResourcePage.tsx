@@ -4,6 +4,7 @@ import Link from "next/link";
 import type { Resource } from "@/data/resources";
 import { helplines } from "@/data/helplines";
 import { TopicNav } from "@/components/TopicNav";
+import { ToolFeedback } from "@/components/ToolFeedback";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { FloatingWidgets } from "@/components/FloatingWidgets";
@@ -87,10 +88,12 @@ function ToolCard({
   tool,
   index,
   isNp,
+  slug,
 }: {
   tool: Resource["tools"][number];
   index: number;
   isNp: boolean;
+  slug: string;
 }) {
   const config = durationConfig[tool.duration];
   const steps = (isNp && tool.stepsNp) || tool.steps;
@@ -128,6 +131,7 @@ function ToolCard({
             </li>
           ))}
         </ol>
+        <ToolFeedback toolId={`${slug}--${tool.title.toLowerCase().replace(/\s+/g, "-")}`} />
       </div>
     </div>
   );
@@ -283,7 +287,7 @@ export function ResourcePage({ resource }: { resource: Resource }) {
             </div>
             <div className="space-y-6">
               {resource.tools.map((tool, i) => (
-                <ToolCard key={tool.title} tool={tool} index={i} isNp={isNp} />
+                <ToolCard key={tool.title} tool={tool} index={i} isNp={isNp} slug={resource.slug} />
               ))}
             </div>
           </section>
