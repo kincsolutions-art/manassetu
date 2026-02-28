@@ -107,7 +107,7 @@ const t = {
       " in Sanskrit. That\u2019s exactly what this is: a bridge between struggling in silence and finding a way forward.",
     believeTitle: "What we believe",
     builtByTitle: "Built by",
-    founderRole: "Founder & Builder",
+    founderRole: "Restless Dreamer",
     bioP1:
       "I was diagnosed with bipolar disorder, borderline personality disorder, severe depression, and severe anxiety. I\u2019ve been on medication for 12 years. I know what it feels like to search for help at 2 AM and find nothing, or worse, find something that makes you feel more alone.",
     bioP2:
@@ -136,7 +136,7 @@ const t = {
       " भन्ने अर्थ राख्छ (संस्कृत)। यही हो यो: मौनतामा भोग्ने र अगाडि बढ्ने बीचको पुल।",
     believeTitle: "हामी के विश्वास गर्छौं",
     builtByTitle: "निर्माता",
-    founderRole: "Founder र Builder",
+    founderRole: "Restless Dreamer",
     bioP1:
       "मलाई bipolar disorder, borderline personality disorder, severe depression र severe anxiety को diagnosis भएको छ। म १२ वर्षदेखि औषधि खाँदैछु। बिहान २ बजे सहयोग खोज्दा केही नभेट्ने, वा भेटेको कुराले अझ एक्लो बनाउने, कस्तो हुन्छ भन्ने मलाई थाहा छ।",
     bioP2:
