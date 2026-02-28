@@ -73,16 +73,16 @@ export function HeroSection() {
           </p>
 
           <div className="pt-10 flex flex-col sm:flex-row gap-4 animate-fade-in-up opacity-0 [animation-delay:600ms] w-full sm:w-auto justify-center">
-            <Link
-              href="/#explore"
-              className="group relative inline-flex items-center justify-center gap-3 bg-white text-stone-900 px-8 py-4 rounded-full font-bold text-lg transition-all duration-500 hover:scale-105 hover:shadow-[0_0_40px_rgba(251,191,36,0.3)] overflow-hidden"
+            <button
+              onClick={() => document.getElementById("explore")?.scrollIntoView({ behavior: "smooth" })}
+              className="group relative inline-flex items-center justify-center gap-3 bg-white text-stone-900 px-8 py-4 rounded-full font-bold text-lg transition-all duration-500 hover:scale-105 hover:shadow-[0_0_40px_rgba(251,191,36,0.3)] overflow-hidden cursor-pointer"
             >
               <div className="absolute inset-0 bg-gradient-to-r from-amber-100 to-orange-100 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <span className="relative">{s.explore}</span>
               <svg className="w-5 h-5 relative group-hover:translate-y-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
               </svg>
-            </Link>
+            </button>
             <Link
               href="/support"
               className="inline-flex items-center justify-center gap-2 bg-stone-900/40 hover:bg-stone-800/60 backdrop-blur-md border border-white/15 text-white px-8 py-4 rounded-full font-medium text-lg transition-all duration-300 hover:border-white/30"
